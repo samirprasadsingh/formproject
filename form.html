@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <style>
+        form{
+            border: 1px solid darkgrey;
+            width:500px;
+            height:500px;
+            padding: 40px;
+            color: aliceblue;
+            border-radius: 20px;
+           
+
+        }
+        label{
+            font-size: 24px;
+            
+
+
+        }
+        .sam{
+            float: left;
+            line-height: 20px ;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+
+            
+        }
+        .sam2{
+            float: left;
+            width: 240px;
+            height: 30px;
+            float: right;
+            border-radius: 12px;
+            
+            
+        }
+        .btn{
+            background-color:whitesmoke;
+            color:black;
+            width: 140px;
+            height: 40px;
+            border: 20px;
+            font-size: 20px;
+            box-shadow: 0 5px #999;
+            cursor: pointer;
+            text-align: center;
+            justify-content: center;
+            transition: 0.3 ;
+           
+
+            
+        }
+        .btn:active{
+            box-sizing: 0px 2px ;
+            transform: translateY(4px) ;
+        }
+        #dl{
+            text-align: center;
+            float: left;
+            width: 240px;
+            height: 30px;
+            float: right;
+            border-radius: 12px;
+            
+        }
+        
+    </style>
+    <body style="background-color: blacK;">
+        <center>
+            <form>
+            <label  class="sam">First name:</label>
+            <input type="text" class="sam2"><br><br>
+
+             <label class="sam">Last name:</label>
+            <input type="text" class="sam2"><br><br><br><br>
+
+
+             <label class="sam">Gender:</label>
+             <input id="con" type="radio" name="gender">
+             <label for="">Male</label>
+             <input id="con"  type="radio" name="gender">
+             <label for="">Female</label>
+             <input id="con" type="radio" name="gender">
+             <label>Others</label><br><br><br>
+
+
+             <label class="sam">DOB:</label>
+            <input type="date" class="sam2"><br><br>
+
+
+             <label class="sam">MOB:</label>
+            <input type="number" id="dl"><br><br>
+
+
+             <label class="sam">Email:</label>
+            <input type="email" class="sam2"><br><br>
+
+
+             <label class="sam">Password:</label>
+            <input type="password" class="sam2"><br><br><br><br><br><br>
+
+            <button class="btn">Submit</button>
+            
+
+
+    </center>
+    </form>
+        
+        
+    </body>
+</html>
